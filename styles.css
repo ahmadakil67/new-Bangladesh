@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+nav>h1{
+    margin-left: 160px;
+    font-family: 'Fira Sans';
+} 
+
+nav>button{
+    margin-right: 160px;
+    border-color: #006A50;
+    padding: 15px 30px 15px 30px;
+    color: #006A50;
+    border-radius: 8px;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    background-color: white;
+}
+
+/* Banner Section */
+.banner {
+    width: 1100px;
+    height: 480px;
+    background-color: #C6E4D6;
+    margin: auto;
+    display: flex;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    
+}
+.banner h4 {
+    color: #0E0E0E;
+    opacity: 0.5;
+    padding-bottom: 16px;
+    font-size: medium;
+}
+.banner p {
+    font-family: 'Fira Sans';
+    font-weight: bold;
+    color: #0E0E0E;
+    font-size: 46px;
+    padding-bottom: 24px;
+}
+.banner button {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFF;
+    font-size: 18px;
+}
